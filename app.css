@@ -1,0 +1,532 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif,Arial, Helvetica;
+}
+
+header{
+    height: 23vh;
+}
+.navbar{
+    background: #c1742d;
+    /* display: block; */
+    justify-content: flex-end;
+    height: 32px;
+}
+.slideshow-container {
+   
+    position: relative;
+    /* margin: auto; */
+    display: flex;
+    justify-content: flex-end;
+    
+    /* padding-top: 10px; */
+
+}
+.reg{
+    z-index: 1;
+    position: fixed;
+    border: 5px hidden black;
+    border-radius: 5%;
+    background: -webkit-linear-gradient(45deg, #ffc692 50%, #efad70 50%);
+    text-align: center;
+    /* align-items: center; */
+    /* padding-top: 18px; */
+    display: center;
+    justify-content: center;
+    
+
+}
+.reg a{
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-style: italic
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 1px;
+    
+
+}
+.navbar{
+    display: flex;
+}
+
+.navbar ul li{
+    text-align: right;
+    text-decoration: none;
+    
+
+}
+.navbar ul li a{
+    padding: 10px 8px 1px ;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 13px ;
+    font-family: sans-serif;
+   
+}
+
+.header{
+    background: -webkit-linear-gradient(45deg, #ffc692 50%, #efad70 50%);
+    height: 100px;
+    
+}
+.header li{
+    font-size: small;
+    font-weight: 700;
+    align-items: flex-end;
+    float: right;
+    padding-right: 30px;
+    margin-top: 40px;
+    list-style: none;
+    
+}
+.header li a{
+    color: black;
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+    padding: 5px;
+    text-align: end;
+    
+
+}
+.header img{
+    width: auto;
+    height: auto;
+    /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  
+} 
+
+.navSec{
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    width: 100%;
+    
+    background-color: #c1742d;
+     display: flex;
+     overflow: hidden;
+     font-family: Arial;
+     overflow: hidden;
+    
+    
+}
+.manu a{
+    display: inline;
+    flex-direction: row;
+    
+    padding-left: 200px;
+    text-decoration: none;
+    
+    color: white;
+   
+}
+
+  .navSec a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 50px;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    padding-top: 10px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; 
+    margin-left: 20px;
+   
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 253, 253);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+    font-family: Arial;
+    font-size: small;
+   
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: rgb(172, 158, 158);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #c1742d;
+
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+
+ /* Style the slideshow container */
+.slideshow-container {
+    min-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Style the individual slides */
+.mySlides {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+/* Optional: Add some styling for navigation buttons, if needed */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+.box {
+    
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.box-image{
+    height: 300px;
+    background-image: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+main footer{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.foot-panel2{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+/* foot-panel3 */
+
+
+
+/* foot-panel4 */
+.foot-panel4{
+    background-color: #2a3838;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center; 
+}
+
+.pages{
+    font-size: 0.7rem;
+    padding-top: 15px;
+}
+
+.copyright{
+    margin-top: 10px;
+    font-size: 0.7rem;
+}
+
+@media (min-width: 385px) and (max-width: 600px) {
+    
+    .navbar{
+        background: #c1742d;
+        /* display: block; */
+        justify-content: flex-end;
+        height: 32px;
+    }
+    
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        margin: 1px;
+        
+    
+    }
+    .navbar{
+        display: flex;
+    }
+    
+    .navbar ul li{
+        text-align: center;
+        text-decoration: none;
+        
+    
+    }
+    .navbar ul li a{
+        /* padding: 5px 8px 1px ; */
+        /* margin: 2px 2px 2px 2px; */
+        color: white;
+        text-decoration: none;
+        font-size: 9px ;
+        font-family: sans-serif;
+       
+    }
+    
+    .navSec{
+        display: flex;
+        justify-content: flex-start;
+        height: 32px;
+        width: 100%;
+        
+        background-color: #c1742d;
+        
+    
+        
+        
+    }
+    .manu a{
+        display: inline;
+        /* flex-direction: row; */
+        
+        /* padding-left: 200px; */
+        text-decoration: none;
+        
+        color: white;
+       
+    }
+    
+      .navSec a {
+        float: left;
+        font-size: 10px;
+        color: white;
+        /* text-align: center; */
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* The dropdown container */
+      .dropdown {
+        float: left;
+        overflow: hidden;
+        margin-left: 5px;
+      }
+      
+      /* Dropdown button */
+      .dropdown .dropbtn {
+        font-size: 10px;
+        border: none;
+        padding-top: 8px;
+        outline: none;
+        color: white;
+        background-color: inherit;
+        font-family: inherit; 
+        /* margin-left: 20px; */
+       
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:antiquewhite;
+        min-width: 70px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        z-index: 1;
+        font-family: Arial;
+        font-size: small;
+       
+        
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        float: none;
+        color: rgb(172, 158, 158);
+        /* padding: 12px 16px; */
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        
+      }
+
+      .shop-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+        
+    }
+    .box {
+        
+        height: 400px;
+        width: 80%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+    
+    .box-image{
+        height: 300px;
+        background-image: contain;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    
+    }
+    
+    .box-content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    main footer{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        
+    }
+    
+    footer{
+        margin-top: 15px;
+    }
+    .foot-panel1 {
+        background-color: black;
+        color: white;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.15rem;
+    }
+    
+    .foot-panel2{
+        background-color: black;
+        color: white;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 0.7rem;
+        padding: 0px 13px 0px 13px;
+
+    }
+    
+    ul {
+        margin-top: 20px;
+    }
+    ul a {
+        display: block;
+        font-size: 0.5rem;
+        margin-top: 10px;
+        color: #dddddd;
+    }
+    
+    
+    
+    
+    
+    /* foot-panel4 */
+    .foot-panel4{
+        background-color: #2a3838;
+        color: white;
+        height: 80px;
+        font-size: 0.7rem;
+        text-align: center; 
+    }
+    
+    .pages{
+        font-size: 0.7rem;
+        padding-top: 15px;
+    }
+    
+      
+    
+}
+
+@media (max-width: 384px){
+
+    body{
+
+        background-color: #2a3838;
+    }
+    
+}
+
+
+
+  
